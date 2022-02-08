@@ -90,6 +90,21 @@ public class repeticao {
 
     }
 
+// -----------------------------------------------------------------------------------------------------------------------------------------------
+// USANDO FOR EACH 
+
+        String name = "Bruno";
+
+        
+        for (char letra : name.toCharArray()) {
+            System.out.println(letra);
+        }
+
+        // usando o println pula-se uma linha
+        
+        for (char letra : name.toCharArray()) {
+          System.out.print(letra);
+        }
 
     }
     
