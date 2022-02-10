@@ -9,6 +9,8 @@ public class tiposDadosNumeReais {
             short num2 = 4; //inteiro (numeros menores, poupa memória  - Pouco utilizado
             byte numX = 4;  // inteiro ainda menor
 
+            char numXX = 34; // quando coloca um numero num char, ele coloca o valor da tabela ASCII
+
 
 
         //tipos não primários
@@ -17,6 +19,8 @@ public class tiposDadosNumeReais {
             Integer num3 = 98; // inteiro classe numeros maiores
             Short num4 = 2; // inteiro classe (numeros menores, poupa memória  - Pouco utilizado
             Byte numX2 = 5;  // classe inteiro ainda menor
+
+            Character numXXX = 34; // quando coloca um numero num char, ele coloca o valor da tabela ASCII
 
 
         // tipos reais primarios
@@ -39,6 +43,8 @@ public class tiposDadosNumeReais {
             System.out.println("short => " + num2);
             System.out.println("byte => " + numX);
             System.out.println("Byte => " + numX2);
+            System.out.println("char => " + numXX);
+            System.out.println("Character => " + numXXX);
             System.out.println("Integer => " + num3);
             System.out.println("Long => " + num00);
             System.out.println("Short => " + num4);
@@ -53,8 +59,11 @@ public class tiposDadosNumeReais {
 
             System.out.println("long/Long => " + Long.SIZE + " bits");
             System.out.println("int/Integer => " + Integer.SIZE + " bits");
+            System.out.println("float/Float => " + Float.SIZE + " bits");
+            System.out.println("double/Double => " + Double.SIZE + " bits");
             System.out.println("short/Short => " + Short.SIZE + " bits");
             System.out.println("byte/Byte => " + Byte.SIZE + " bits");
+            System.out.println("char/Character => " + Character.SIZE + " bits");
 
             System.out.println("-----------x--------------");
 
@@ -63,6 +72,11 @@ public class tiposDadosNumeReais {
             System.out.println("int/Integer SUPORTA entre      " + Integer.MIN_VALUE + "  e  " + Integer.MAX_VALUE);
             System.out.println("short/Short SUPORTA entre     " + Short.MIN_VALUE + "  e  " + Short.MAX_VALUE);
             System.out.println("byte/Byte  SUPORTA entre       " + Byte.MIN_VALUE + "  e  " + Byte.MAX_VALUE);
+            System.out.println("float/Float  SUPORTA entre       " + Float.MIN_VALUE + "  e  " + Float.MAX_VALUE);
+            System.out.println("double/Double  SUPORTA entre       " + Double.MIN_VALUE + "  e  " + Double.MAX_VALUE);
+
+
+            System.out.println("char/Character  SUPORTA entre       " + Character.MIN_VALUE + "  e  " + Character.MAX_VALUE); // 0 e 65535 seria isso
 
 
     }
