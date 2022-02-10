@@ -1,4 +1,4 @@
-package orientacaoObjetos;
+package orientacaoobjetos;
 
 public class Produto {
 
@@ -9,5 +9,7 @@ public class Produto {
     void aumentar_preco(){
         this.preco = this.preco + 10;
     }
+
+    
     
 }

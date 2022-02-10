@@ -1,4 +1,4 @@
-package orientacaoObjetos;
+package orientacaoobjetos;
 // nas classes java não se implementa a funcao main
 // classe mesmo nome do arquivo
 

@@ -1,4 +1,4 @@
-package orientacaoObjetos;
+package orientacaoobjetos;
 
 public class Construtor {
 
