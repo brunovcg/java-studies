@@ -17,7 +17,7 @@ public class Conta {
         this.cliente = cliente;
     }
 
-    void sacar (float valor){
+    public void sacar (float valor){
 
         if( this.saldo - valor >=0){
             
@@ -52,8 +52,10 @@ public class Conta {
     }
 
 
-    void depositar (float valor) {
+    public void depositar (float valor) {
+        System.out.println("Saldo anterior João => " + this.saldo);
         this.saldo = this.saldo + valor;
+        System.out.println("Saldo João novo => " + this.saldo);
     }
 
     public float getSaldo(){

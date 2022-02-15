@@ -1,0 +1,21 @@
+
+Quando falamos em  exceções no java:
+
+1- Checked Exceptions; - menos perigosas
+
+- Exception
+- IOException
+- SQException
+
+As exceções do tipo 'checked'fazem com que o programa não seja executado até que a determinada execção seja tratada
+
+
+
+2 - Unchecked Exceptions; - mais perigosas exemplo
+
+-RuntimeException;
+-NullPointerException
+-ArrayOutOfBoundsException
+
+As exceções do tipo 'uncheck' só acontecem durante a execução do programa
+e desta forma não temos como saber, em grande parte dos cados onde eá ocorrerá
