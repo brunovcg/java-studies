@@ -1,4 +1,4 @@
-package orientacaoobjetos;
+package orientacao_objetos;
 
 public class Pessoa {
 

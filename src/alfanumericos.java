@@ -13,6 +13,11 @@ public class alfanumericos {
         
         String nome = "Bruno Gouveia"; // não existe o tipo primitivo String
 
+        // para comparar 2 strings, usar o .equals, pois ele pode comparar o endereco da memoria
+
+        // JAVA tem equalsIgnoreCase
+        
+
         letra2 = (char) (letra2 + 1); // cast
 
         System.out.println("Letra1 " + letra1);
