@@ -4,6 +4,8 @@ import java.util.ArrayList;
 public class ArrayListas {
 
 
+  //! vai aceitar itens de tipos diferentes, mas pode dar ruim
+
   public static void main(String[] args) {
 
     ArrayList lista = new ArrayList();

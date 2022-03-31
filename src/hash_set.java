@@ -18,5 +18,8 @@ public class hash_set {
     //clear
        // apaga tudo
 
+
+    //* transforma num array com toArray, daí voce pode usar os metodos de array!!!
+
   }  
 }
