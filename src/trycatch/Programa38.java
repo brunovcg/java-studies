@@ -19,6 +19,10 @@ public class Programa38 {
         }
         catch(Exception e){
             System.out.println("Não foi possivel Executar a divisão");
+
+            e.printStackTrace(); // fala do erro
+            e.getMessage(); // menagdem do erro
+
         }
 
         teclado.close();
@@ -28,8 +32,39 @@ public class Programa38 {
 
 
     // exige tratamento com try catch ao utilizar o throws Exception
-    public static int divisao(int n1, int n2) throws Exception {
+
+    // public static int divisao(int n1, int n2) throws Exception {
+
+      // * ja determinar o erro
+      public static int divisao(int n1, int n2) {
+
+        if (n2 == 0) {
+          throw new IllegalArgumentException();
+        }
             return n1/n2;
     }
+
+    //ou
+
+    public static int divisao2(int n1, int n2) throws Exception {
+
+      if (n2 == 0) {
+        throw new Exception("O divisor não pode ser zero!");
+      }
+          return n1/n2;
+  }
+
+  public static int divisao3(int n1, int n2) throws DivisorZeroException {
+
+    if (n2 == 0) {
+      throw new DivisorZeroException();
+    }
+        return n1/n2;
+}
+
+
+
+
+  
     
 }
